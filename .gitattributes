@@ -13,6 +13,8 @@
 **/*.h       linguist-vendored
 **/*.hh      linguist-vendored
 **/*.hpp     linguist-vendored
+**/CMakeLists.txt linguist-vendored
+**/*.cmake           linguist-vendored
 
 # ───────────────────────────────────────────────────────────────────────────────
 # 3. (Optional) Also hide build outputs or other large folders
