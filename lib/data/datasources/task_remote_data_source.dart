@@ -42,3 +42,10 @@ class TaskRemoteDataSourceImpl implements TaskRemoteDataSource {
     await _controller.close();
   }
 }
+/*
+- Use invoke(...) for client-initiated server calls.
+
+- Use hub.on(...) to register server-initiated client callbacks,
+which the Hub triggers via Clients.*.SendAsync(...).
+
+*/

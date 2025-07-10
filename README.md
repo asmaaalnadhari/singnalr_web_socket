@@ -16,13 +16,8 @@ A Flutter application demonstrating a real-time, collaborative to-do list built 
     - [SignalR Integration](#signalr-integration)
     - [State Management (BLoC)](#state-management-bloc)
 4. [Project Structure](#project-structure)
-5. [Getting Started](#getting-started)
-    - [Prerequisites](#prerequisites)
-    - [Server Setup](#server-setup)
-    - [Client Setup](#client-setup)
-    - [Running the App](#running-the-app)
-6. [Contributing](#contributing)
-7. [License](#license)
+5. [Data Flow Diagram](#data-flow-diagram)
+    
 
 ---
 
@@ -122,7 +117,7 @@ lib/
 │ └─ task_page.dart
 └─ main.dart
 
-# Data Flow Diagram
+## Data Flow Diagram
 
 
 * User taps “Add”
