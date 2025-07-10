@@ -1,3 +1,21 @@
-# 1) Tell Linguist “these .dart files are Dart”
+# ───────────────────────────────────────────────────────────────────────────────
+# 1. Force all Dart files to be counted as Dart
+# ───────────────────────────────────────────────────────────────────────────────
 *.dart linguist-language=Dart
 
+# ───────────────────────────────────────────────────────────────────────────────
+# 2. Vendored (exclude) all C / C++ sources
+# ───────────────────────────────────────────────────────────────────────────────
+**/*.c       linguist-vendored
+**/*.cc      linguist-vendored
+**/*.cpp     linguist-vendored
+**/*.cxx     linguist-vendored
+**/*.h       linguist-vendored
+**/*.hh      linguist-vendored
+**/*.hpp     linguist-vendored
+
+# ───────────────────────────────────────────────────────────────────────────────
+# 3. (Optional) Also hide build outputs or other large folders
+# ───────────────────────────────────────────────────────────────────────────────
+build/       linguist-vendored
+node_modules/ linguist-vendored
